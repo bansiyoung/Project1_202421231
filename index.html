@@ -23,7 +23,18 @@
     <p><a class="github-profile" href="https://github.com/bansiyoung" rel="noopener noreferrer" target="_blank"><img alt="" class="github-mark" src="images/github-mark.svg"/> GitHub 프로필</a></p>
 </header>
 <main>
-    <section aria-labelledby="achievements-title" id="achievements"><div class="achievement-header"><div class="achievement-title-group"><h2 id="achievements-title">🏆 활동 및 실적 <span class="section-label">QUEST LOG</span></h2><p class="achievement-meta" id="achievement-summary">🗓️ 최신순 정렬 · 총 15개의 실적</p></div><div class="achievement-category-box"><p class="category-label">🎮 CATEGORY SELECT</p><div aria-label="실적 분류 필터" class="achievement-categories" role="group"><button aria-pressed="true" class="category-chip is-active" data-filter="전체" type="button">전체 15</button><button aria-pressed="false" class="category-chip" data-filter="프로젝트" type="button">프로젝트 5</button><button aria-pressed="false" class="category-chip" data-filter="활동" type="button">활동 6</button><button aria-pressed="false" class="category-chip" data-filter="자격" type="button">자격 2</button><button aria-pressed="false" class="category-chip" data-filter="교육" type="button">교육 1</button><button aria-pressed="false" class="category-chip" data-filter="수상" type="button">수상 1</button></div></div></div>
+    <section aria-labelledby="achievements-title" id="achievements">
+        <div class="achievement-header">
+            <div class="achievement-title-group">
+                <h2 id="achievements-title">🏆 활동 및 실적 <span class="section-label">QUEST LOG</span></h2>
+                <p class="achievement-meta" id="achievement-summary">🗓️ 최신순 정렬 · 총 15개의 실적</p></div>
+                <div class="achievement-category-box"><p class="category-label">🎮 CATEGORY SELECT</p>
+                    <div aria-label="실적 분류 필터" class="achievement-categories" role="group"><button aria-pressed="true" class="category-chip is-active" data-filter="전체" type="button">전체 15</button>
+                        <button aria-pressed="false" class="category-chip" data-filter="프로젝트" type="button">프로젝트 5</button>
+                        <button aria-pressed="false" class="category-chip" data-filter="활동" type="button">활동 6</button>
+                        <button aria-pressed="false" class="category-chip" data-filter="자격" type="button">자격 2</button>
+                        <button aria-pressed="false" class="category-chip" data-filter="교육" type="button">교육 1</button>
+                        <button aria-pressed="false" class="category-chip" data-filter="수상" type="button">수상 1</button></div></div></div>
         <div class="table-wrapper">
             <table>
                 <caption>시기별 활동 및 실적 목록</caption>
@@ -80,12 +91,12 @@
     </section>
 </main>
 <footer>
-    <p>💾 최종 수정일: 2026-10-19</p>
+    <p>💾 최종 수정일: 2026-10-20</p>
     <a aria-label="페이지 맨 위로 이동" class="back-to-top" href="#top">⬆️ TOP</a>
 </footer>
 
 <script>
-    const weekLinks = document.querySelectorAll("#web-weeks a");
+    const weekLinks = document.querySelectorAll("#web-weeks a"); 
 
     weekLinks.forEach(function(link, index) {
         const key = "clicked-week-" + index;
